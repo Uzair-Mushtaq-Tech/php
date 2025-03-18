@@ -1,0 +1,18 @@
+<?php
+$number = 1;
+if($number = 1 ){
+    echo"MONDAY";
+}elseif($number = 2 ){
+    echo"TEUSDAY";
+}elseif($number = 3 ){
+    echo"WEDNESDAY";
+}elseif($number = 4 ){
+    echo"THURSDAY";
+}elseif($number = 5 ){
+    echo"FRIDAY";
+}elseif($number = 6 ){
+    echo"SATURDAY";
+}elseif($number = 7 ){
+    echo"SUNDAY";    
+}
+?>
