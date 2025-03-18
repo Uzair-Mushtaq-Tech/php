@@ -1,0 +1,14 @@
+<?php
+$number = 15;
+if($number >= 90 && $number <=100){
+    echo"A";
+}elseif($number >= 80 && $number <=89){
+    echo"B";
+}elseif($number >= 70 && $number <=79){
+    echo"C";
+}elseif($number >= 60 && $number <=69){
+    echo"D";
+}else{
+    echo"Fail";
+}
+?>
