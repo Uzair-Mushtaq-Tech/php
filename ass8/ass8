@@ -1,0 +1,13 @@
+<?php
+$stored_username = "admin";
+$stored_password = "password123";
+
+$input_username = "admin";
+$input_password = "password123";
+
+if ($input_username === $stored_username && $input_password === $stored_password){
+    echo "Valid";
+} else {
+    echo "Invalid";
+}
+?>
