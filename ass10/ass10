@@ -1,1 +1,12 @@
-
+<?php
+$side1 = 6;
+$side2 = 6;
+$side3 = 6;
+if ($side1 == $side2 && $side2 == $side3) {
+    echo "The triangle is Equilateral.";
+} elseif ($side1 == $side2 || $side2 == $side3 || $side1 == $side3) {
+    echo "The triangle is Isosceles.";
+} else {
+    echo "The triangle is Scalene.";
+}
+?>
