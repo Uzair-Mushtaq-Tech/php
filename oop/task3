@@ -1,0 +1,29 @@
+<?php
+class BankAccount {
+    private $accountNumber;
+    private $balance;
+
+    public function __construct($accountNumber, $balance) {
+        $this->accountNumber = $accountNumber;
+        $this->balance = $balance;
+    }
+
+    public function deposit($amount) {
+        echo "Deposited: $amount<br>";
+    }
+
+    public function withdraw($amount) {
+        echo "Withdrawn: $amount<br>";
+    }
+
+    public function getBalance() {
+        echo "Balance: $this->balance";
+    }
+}
+
+$account = new BankAccount("123456789", 500);
+
+$account->deposit(200);
+$account->withdraw(100);
+$account->getBalance();
+?>
