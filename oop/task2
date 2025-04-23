@@ -1,0 +1,19 @@
+<?php
+class Book {
+    private $title;
+    private $author;
+
+    public function __construct($title, $author) {
+        $this->title = $title;
+        $this->author = $author;
+    }
+
+    public function getSummary() {
+        return "$this->title, $this->author";
+    }
+}
+
+$book1 = new Book("Sahih Bukhari", "Imam Bukhari");
+
+echo $book1->getSummary();
+?>
